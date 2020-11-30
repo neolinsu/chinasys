@@ -20,7 +20,7 @@
     <v-main class="grey lighten-3">
       <v-container>
         <v-row>
-          <v-col cols="2">
+          <v-col >
             <v-sheet rounded="lg">
               <v-list color="transparent">
                 <v-list-item
@@ -38,7 +38,7 @@
             </v-sheet>
           </v-col>
 
-          <v-col>
+          <v-col cols="10">
             <v-sheet
               min-height="70vh"
               rounded="lg"
@@ -62,12 +62,11 @@
       links: [
       ],
       items: [
-        {name: '主页', to: '/'},
-        {name: '组织机构', to: '/'},
-        {name: '会议日程', to: '/'},
-        {name: '会议注册', to: '/'},
-        {name: '酒店预订', to: '/'},
-        {name: '联系方式', to: '/'},
+        {name: '主页(Home)', to: '/'},
+        {name: '组织机构(Committee)', to: '/committee'},
+        {name: '会议日程(Program)', to: '/program'},
+        {name: '会议注册(Register)', to: '/hotel'},
+        {name: '联系方式(Contact Us)', to: '/tbd'},
       ]
     }),
     components: {
